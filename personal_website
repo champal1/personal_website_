@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alex">
+    <meta name = "description" content="learning html">
+    <title>Alejandro Vargas</title>
+    <link rel="icon" href="hatsunemiku.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: auto;
+        }
+    </style>
+</head>    
+<body>
+    <main>
+        <article id="Intro basic">
+            <h2>Alejandro Vargas</h2>
+        </article>
+        <div class="image-container">
+            <a href="about.html" target="_blank">
+                <img src="icon.png" width="55" height="50" alt="myself">
+                <p style="font-size: 11px;">About me</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://github.com/champal1" target="_blank">
+                <img src="github.png" width="50" height="50">
+                <p style="font-size: 11px;">Github</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://www.linkedin.com/in/alejandro-vargas-215817155/" target="_blank">
+                <img src="LinkedIn_logo_initials.webp" width="50" height="50">
+                <p style="font-size: 11px;">LinkedIn</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://www.instagram.com/al_arts4?igsh=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr" target="_blank">
+                <img src="Instagram_logo_2022.svg.png" width="50" height="50">
+                <p style="font-size: 11px;">Instagram</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="//mail.google.com/mail/?view=cm&fs=1&to=alexvargas45921@gmail.com" target="_blank">
+                <img src="Gmail_icon_(2020).svg.png" width="20" height="50" alt="Email">
+                <p style="font-size: 11px;">Email</p>
+            </a>
+        </div>
+    <footer>
+        <div class="footer-content">
+        &lt;&lt;&lt; &copy; <a href="about.html">Alejandro</a> &gt;&gt;&gt;
+        <a href="#top" class="back-to-top">Back to top</a>
+        </div>
+    </footer>
+    <!-- Audio element -->
+  <audio id="background-music" loop>
+    <source src="Level Eleven - Evening Telecast.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <button id="play-music" onclick="toggleMusic()">Play Background Music</button>
+  <script>
+    function toggleMusic() {
+      const audio = document.getElementById("background-music");
+      const button = document.getElementById("play-music");
+      if (audio.paused) {
+        audio.play();
+        button.textContent = "Pause Background Music";
+      } else {
+        audio.pause();
+        button.textContent = "Play Background Music";
+      }
+    }
+  </script>
+</body>
+</html>
