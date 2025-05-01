@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alex">
+    <meta name = "description" content="learning html">
+    <title>My introduction</title>
+    <link rel="icon" href="html5.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Alejandro Vargas</h1>
+    <hr>
+
+    <h2>Hello everyone and welcome to my introduction page</h2>
+    <p>Here is a brief idea of who I am</p>
+    <hr>
+        <article id="About me">
+            <h3>About me</h3>
+            <p>Hi I'm Alejandro.</p>
+            <p>I am a software developer in training</p>
+            <p>I am currently studying Java at Foothill College.</p>
+            I enjoy solving problems, coding, and reading.
+            </p>
+        </article>
+        <hr>
+        <article id="Education">
+            <h3>Education</h3>
+            <p>Computer Science at Foothill College, Los Altos, Ca | GPA: 3.4</p>
+            <h3>Course work:</h3>
+            <p>Object-Oriented Programming Methodologies Python Course</p>
+            <p>Intermed Software Design Python Course</p>
+        </article>
+        <hr>
+        <article id="Skills">
+            <h3>Skills</h3>
+            <h4>Back End Development</h4>
+            <p>Python and Java</p>
+            <h4>Front End Development</h4>
+            <p>HTML, CSS, JavaScript</p>
+            <h4>Soft Skills</h4>
+            <p>Organization, Time Management, Problem Solving, 
+                Adapting, Caring, Communication Skills, Detail Oriented</p>
+            <h4>Computer Skills</h4>
+            <p> Python, JavaScript, Pycharm, VSCode, Zoom, 
+                Discord, Microsoft Office, GitHub</p>
+            <h4>Languages</h4>
+            <p>English and Spanish</p>    
+        </article>
+    </main>
+    <hr>
+    <p>
+        <a href="/">Back to home</a>
+    </p>
+</body>
